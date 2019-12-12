@@ -1,0 +1,24 @@
+all : dep1 dep2
+	ls -l
+
+
+
+dep1: dep3
+	ls, pwd
+	ps
+
+
+
+
+dep2:
+	pwd, ls
+	ps
+
+dep3: dep4
+	ls, pwd
+	ps
+
+dep4 :
+	mkdir myproject, pwd, ls 
+	ps
+	ls
