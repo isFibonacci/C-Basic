@@ -1,4 +1,4 @@
-
+# shell
 ---
 ### 1. Purpose of 'mymake' Program ###
 'mymake' is an executable generated from a C program. As we know, makefile are made up of targets, dependencies and recipes. The purpose of 'mymake' is to print out recipes or dependency relationship of targets and execute recipes in correct order from the given makefile and target(optional).
@@ -50,5 +50,3 @@ There are three ways to execute the program via
 
     We use two loops. In the first loop, let's say if there are three lines recipes, we fork three times. And then if pid == 0, that means it is a child process, we check how many recipes in this line use some attributes in the target struct; Let's say there are two recipes: mkdir myproject, pwd; we fork two times and then exec paralle; We have to wait until these two process is finished and then continue next line as anthoer process. We wait until all the process finished and then exit. More detail is in fork_parallel.c
     
-
-# shell
