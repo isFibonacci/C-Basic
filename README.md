@@ -6,7 +6,7 @@
 ---
 
 ### 2. How to Compile the Program ###
-'mymake' can be compiled by a given Makefile inside the directory 'pa1'.
+'mymake' can be compiled by a given Makefile inside the root directory.
 User can compile the program by ’make':
 ```
     $ make
